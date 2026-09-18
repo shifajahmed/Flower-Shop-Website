@@ -496,3 +496,229 @@ span {
 .gap_footer {
   gap: 32px;
 }
+
+/* --- Mobile Responsive Code --- */
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .section_gap {
+    margin-top: 40px;
+  }
+
+  .plants-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .card_container .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .prag {
+    font-family: Inter;
+    font-size: 14px;
+  }
+
+  .head_text {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+  }
+}
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+  .plant-card {
+    grid-template-columns: 5fr;
+  }
+  .subscribe-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-links-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Banner Section */
+
+@media (max-width: 768px) {
+  .banner-content {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .banner-text h1 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+  }
+
+  .banner-text p {
+    font-size: 1rem;
+    br {
+      display: none;
+    }
+  }
+}
+
+/* Plants Section */
+@media (max-width: 768px) {
+  .section-header {
+    margin-bottom: 20px;
+  }
+
+  .section-header p {
+    br {
+      display: none;
+    }
+  }
+
+  .plants-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .flower_list {
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0%;
+  }
+}
+
+/* Plants Lover Section */
+@media (max-width: 768px) {
+  .plants-lover-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .plants-lover-image-container {
+    width: 100%;
+  }
+
+  .badge {
+    position: static;
+    width: 100px;
+    height: auto;
+    margin: 15px auto 0;
+    filter: none;
+  }
+
+  .flower_list {
+    text-align: left;
+    br {
+      display: none;
+    }
+  }
+}
+/* Latest Deals Section */
+@media (max-width: 768px) {
+  .deals_heading .heading {
+    font-size: 2.5rem;
+  }
+
+  .deals_heading .paragraph br {
+    display: none;
+  }
+
+  .card_container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  .badge {
+    display: none;
+  }
+
+  .card {
+    height: 150px;
+    width: 100%;
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
+/* Subscribe Section */
+@media (max-width: 768px) {
+  .newsletter_section {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .newsletter_section h2 {
+    font-size: 2rem;
+  }
+
+  .subscribe-form {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .subscribe-form input,
+  .subscribe-form button {
+    width: 100%;
+  }
+
+  .subscribe-form .btn-subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .btn-subscribe {
+    width: 103px;
+    height: 50px;
+  }
+
+  .subscribe-form {
+    width: 218px;
+    height: 50px;
+  }
+}
+/* Footer */
+@media (max-width: 768px) {
+  .footer {
+    margin: 30px 0;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: left;
+    gap: 30px;
+  }
+
+  .footer-links-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-col {
+    width: 100%;
+  }
+
+  .footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  .footer-social img {
+    width: 36px;
+    height: 36px;
+  }
+}
