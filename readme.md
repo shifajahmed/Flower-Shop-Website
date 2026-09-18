@@ -1,28 +1,27 @@
-
 # Flower Shop Website
 
 A modern and responsive flower shop website designed to showcase beautiful flowers and provide a simple, user-friendly shopping experience.
 
 ## 🌐 Live Demo
 
-🔗 **Live Website:** [https://shifajahmed.github.io/Flower-Shop-Website/]
+🔗 **Live Website:** https://shifajahmed.github.io/Flower-Shop-Website/
 
 ## ✨ Features
 
-* 🌷 Modern and clean user interface
-* 📱 Fully responsive design
-* 🛍️ Flower product showcase
-* 🔍 Easy and simple navigation
-* 💐 Attractive flower collection
-* 📦 Product details and shopping sections
-* ⚡ Fast and smooth user experience
+- 🌷 Modern and clean user interface
+- 📱 Fully responsive design
+- 🛍️ Flower product showcase
+- 🔍 Easy and simple navigation
+- 💐 Attractive flower collection
+- 📦 Product details and shopping sections
+- ⚡ Fast and smooth user experience
 
 ## 🛠️ Technologies Used
 
-* HTML5
-* CSS3
-* JavaScript
-* Tailwind CSS
+- HTML5
+- CSS3
+- JavaScript
+- Tailwind CSS
 
 ## 📁 Project Structure
 
@@ -42,8 +41,8 @@ This project was built to practice frontend development skills and create a clea
 
 **Shifaj Ahmed**
 
-* GitHub: [@shifajahmed](https://github.com/shifajahmed)
-* LinkedIn: [Shifaj Ahmed](https://www.linkedin.com/in/shifaj/)
+- GitHub: [@shifajahmed](https://github.com/shifajahmed)
+- LinkedIn: [Shifaj Ahmed](https://www.linkedin.com/in/shifaj/)
 
 ---
 
